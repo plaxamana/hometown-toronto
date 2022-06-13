@@ -80,8 +80,11 @@ h4 {
   margin-bottom: 36px;
 }
 
-.activities-section {
+.section {
   padding: 80px 40px;
+}
+
+.activities-section {
   background-color: #C8D3D5;
   color: #0A2239;
 }
@@ -134,10 +137,6 @@ h4 {
 
 #ripley:hover {
   background: url('images/jellyfish.gif') no-repeat center center/cover;
-}
-
-.guide-section {
-  padding: 80px 40px;
 }
 
 .card {
