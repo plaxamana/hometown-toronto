@@ -27,8 +27,12 @@ h1 {
   font-size: 32px;
 }
 
-h2 {
+h2, h3 {
   font-size: 19px;
+}
+
+h4 {
+  font-size: 16px;
 }
 
 .container {
@@ -61,19 +65,79 @@ h2 {
   text-shadow: 0 0 1px #000;
 }
 
+.main-heading {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.subheading {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.heading {
+  font-size: 36px;
+  margin-bottom: 36px;
+}
+
 .activities-section {
   padding: 80px 40px;
+  background-color: #C8D3D5;
+  color: #0A2239;
 }
 
 .activities {
   display: flex;
+  justify-content: space-between;
+}
+
+.activity {
+  max-width: 300px;
+  padding: 1em;
+}
+
+.activity-heading {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.activity-desc {
+  font-size: 16px;
 }
 
 .activity-img {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.activity-img-tower {
+  background: url('images/cn-tower.jpeg') no-repeat center center/cover;
+}
+
+#cn-tower:hover {
+  background: url('images/cn-tower.gif') no-repeat center center/cover;
+}
+
+.activity-img-rom {
+  background: url('images/rom.jpeg') no-repeat center center/cover;
+}
+
+#rom:hover {
+  background: url('images/dinosaur.gif') no-repeat center center/cover;
+}
+
+.activity-img-ripley {
+  background: url('images/ripleys-aquarium.jpeg') no-repeat center center/cover;
+}
+
+#ripley:hover {
+  background: url('images/jellyfish.gif') no-repeat center center/cover;
+}
+
+.guide-section {
+  padding: 80px 40px;
 }
 
 .card {
@@ -81,6 +145,25 @@ h2 {
   max-width: 500px;
   margin: 0 auto;
   flex-direction: row-reverse;
+  background-color: #0A2239;
+  padding: 32px;
+  border-radius: 15px;
+  border-bottom: 10px solid #A4B8C4;
+  color: #A4B8C4;
+  justify-content: space-between;
+}
+
+.card-content {
+  width: 60%;
+}
+
+.card-body {
+  margin-bottom: 24px;
+}
+
+.card-heading {
+  font-size: 30px;
+  margin-bottom: 12px;
 }
 
 .profile {
